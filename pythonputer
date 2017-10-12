@@ -1,0 +1,13 @@
+#hi
+art = """
+/  \    /  \__| ____    __| _/______  _  ________ \_____  \   _  \/_   \______  \
+\   \/\/   /  |/    \  / __ |/  _ \ \/ \/ /  ___/  /  ____/  /_\  \|   |   /    /
+ \        /|  |   |  \/ /_/ (  <_> )     /\___ \  /       \  \_/   \   |  /    / 
+  \__/\  / |__|___|  /\____ |\____/ \/\_//____  > \_______ \_____  /___| /____/  
+       \/          \/      \/                 \/          \/     \/              """
+print("Would you like to start the computer?")
+start = input("y/n")
+if start == "y":
+  print("Would you like to login as Admin  or Guest?")
+  chooseuser = input("Admin/Guest")
+  if chooseuser == "Admin"
